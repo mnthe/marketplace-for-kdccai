@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Claude marketplace for KDC Club activity - A collection of Claude Code plugins and skills",
   "owner": {
-    "name": "KDC Club",
+    "name": "mnthe",
     "url": "https://github.com/mnthe"
   },
   "plugins": [
