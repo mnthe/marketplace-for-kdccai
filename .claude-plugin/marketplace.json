@@ -5,12 +5,10 @@
   "author": "KDC Club",
   "plugins": [
     {
-      "name": "kdccai-welcome",
-      "description": "Welcome plugin for the KDC Club AI marketplace with helpful information and examples",
-      "version": "1.0.0",
-      "skills": [
-        "./plugins/kdccai-welcome"
-      ]
+      "name": "kdccai",
+      "description": "KDC Club AI - AI-assisted coding skills for non-developers: project initialization, planning, implementation, and debugging with Python automation tools",
+      "version": "0.1.1",
+      "repository": "https://github.com/mnthe/kdccai-plugin"
     }
   ]
 }
