@@ -3,5 +3,14 @@
   "description": "Claude marketplace for KDC Club activity - A collection of Claude Code plugins and skills",
   "version": "1.0.0",
   "author": "KDC Club",
-  "plugins": []
+  "plugins": [
+    {
+      "name": "kdccai-welcome",
+      "description": "Welcome plugin for the KDC Club AI marketplace with helpful information and examples",
+      "version": "1.0.0",
+      "skills": [
+        "./plugins/kdccai-welcome"
+      ]
+    }
+  ]
 }
