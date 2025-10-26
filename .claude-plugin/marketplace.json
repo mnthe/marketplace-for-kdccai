@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "kdccai",
+  "name": "marketplace-for-kdccai",
   "version": "1.0.0",
   "description": "Claude marketplace for KDC Club activity - A collection of Claude Code plugins and skills",
   "owner": {
