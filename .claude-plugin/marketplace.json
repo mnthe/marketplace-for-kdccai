@@ -1,8 +1,12 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "kdccai",
-  "description": "Claude marketplace for KDC Club activity - A collection of Claude Code plugins and skills",
   "version": "1.0.0",
-  "author": "KDC Club",
+  "description": "Claude marketplace for KDC Club activity - A collection of Claude Code plugins and skills",
+  "owner": {
+    "name": "KDC Club",
+    "url": "https://github.com/mnthe"
+  },
   "plugins": [
     {
       "name": "kdccai",
@@ -10,7 +14,8 @@
         "source": "github",
         "repo": "mnthe/kdccai-plugin"
       },
-      "description": "KDC Club AI - AI-assisted coding skills for non-developers: project initialization, planning, implementation, and debugging with Python automation tools"
+      "description": "KDC Club AI - AI-assisted coding skills for non-developers: project initialization, planning, implementation, and debugging with Python automation tools",
+      "category": "workflow"
     }
   ]
 }
