@@ -11,7 +11,7 @@ A more detailed description of your plugin, including:
 
 ## Installation
 
-This plugin is part of the marketplace-for-kdccai marketplace. To install:
+This plugin is part of the [MARKETPLACE_NAME] marketplace. To install:
 
 ```bash
 /plugin install [your-plugin-name]
