@@ -16,7 +16,7 @@ The plugin provides helpful information about the KDC Club AI activities and how
 This plugin is part of the kdccai marketplace. To install:
 
 ```bash
-/plugin marketplace add mnthe/marketplace-for-kdccai
+/plugin marketplace add https://github.com/mnthe/marketplace-for-kdccai
 /plugin install kdccai-welcome
 ```
 
@@ -68,7 +68,7 @@ Use this plugin as a reference when creating new plugins:
 
 **Solution**: Ensure you've added the marketplace first:
 ```bash
-/plugin marketplace add mnthe/marketplace-for-kdccai
+/plugin marketplace add https://github.com/mnthe/marketplace-for-kdccai
 ```
 
 ### Plugin Not Found
