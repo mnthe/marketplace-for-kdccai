@@ -12,7 +12,7 @@
       "name": "kdccai",
       "source": {
         "source": "url",
-        "url": "https://gitlab.com/mnthe/kdccai-plugin.git"
+        "url": "https://github.com/mnthe/kdccai-plugin.git"
       },
       "description": "KDC Club AI - AI-assisted coding skills for non-developers: project initialization, planning, implementation, and debugging with Python automation tools",
       "category": "workflow"
