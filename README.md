@@ -16,12 +16,6 @@ Add this marketplace to your Claude Code instance:
 /plugin marketplace add mnthe/marketplace-for-kdccai
 ```
 
-Or using the shorthand format:
-
-```bash
-/plugin marketplace add mnthe/marketplace-for-kdccai
-```
-
 ### Step 2: Install Plugins
 
 After adding the marketplace, you can install individual plugins from it:
