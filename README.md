@@ -1,4 +1,4 @@
-# kdccai
+# marketplace-for-kdccai
 
 Claude marketplace for KDC Club activity - A collection of Claude Code plugins and skills.
 
