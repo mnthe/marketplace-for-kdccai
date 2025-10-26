@@ -6,6 +6,63 @@ Claude marketplace for KDC Club activity - A collection of Claude Code plugins a
 
 This repository serves as a Claude Code plugin marketplace, hosting single or multiple Claude plugins within the same owner. Claude Code plugins extend the capabilities of Claude with custom agents, commands, hooks, and integrations.
 
+## Installation
+
+### Step 1: Add the Marketplace
+
+Add this marketplace to your Claude Code instance:
+
+```bash
+/plugin marketplace add https://github.com/mnthe/marketplace-for-kdccai
+```
+
+Or using the shorthand format:
+
+```bash
+/plugin marketplace add mnthe/marketplace-for-kdccai
+```
+
+### Step 2: Install Plugins
+
+After adding the marketplace, you can install individual plugins from it:
+
+```bash
+/plugin install kdccai
+```
+
+You can also browse and install plugins interactively:
+
+```bash
+/plugin
+```
+
+This will open the plugin menu where you can see all available plugins from this marketplace and install them with a click.
+
+### Verify Installation
+
+To verify the marketplace and plugins are installed:
+
+```bash
+/plugin marketplace list    # List all marketplaces
+/plugin list                # List all installed plugins
+```
+
+## Available Plugins
+
+### kdccai Plugin
+
+**AI-assisted coding skills for non-developers** - Build Python automation tools with guided workflows for project initialization, planning, implementation, and debugging.
+
+**Features:**
+- `/project-init` - Initialize new automation project
+- `/plan` - Create implementation plans
+- `/implement` - Implement tasks with TDD
+- `/debug` - Systematic error debugging
+
+**Repository:** [mnthe/kdccai-plugin](https://github.com/mnthe/kdccai-plugin)
+
+For detailed documentation, see the [kdccai plugin README](https://github.com/mnthe/kdccai-plugin/blob/main/README.md).
+
 ## Repository Structure
 
 ```
@@ -22,23 +79,32 @@ kdccai/
 └── README.md               # This file
 ```
 
-## Installation
-
-To add this marketplace to your Claude Code instance:
-
-```bash
-/plugin marketplace add https://github.com/mnthe/marketplace-for-kdccai
-```
-
-## Available Plugins
-
-Currently, this marketplace is being initialized. Plugins will be added soon.
-
-To browse available plugins, check the [plugins/](./plugins/) directory or view the [marketplace.json](./.claude-plugin/marketplace.json) file.
-
 ## Adding a New Plugin
 
-To add a new plugin to this marketplace:
+To add a new plugin to this marketplace, you have two options:
+
+### Option 1: Reference an External GitHub Repository (Recommended)
+
+Add a reference to an existing GitHub plugin repository in `marketplace.json`:
+
+```json
+{
+  "plugins": [
+    {
+      "name": "your-plugin-name",
+      "source": {
+        "source": "github",
+        "repo": "username/plugin-repo"
+      },
+      "description": "Brief description of what your plugin does"
+    }
+  ]
+}
+```
+
+This approach allows the plugin to be maintained in its own repository while being discoverable through this marketplace.
+
+### Option 2: Host Plugin Locally in this Repository
 
 1. **Create a plugin directory** under `plugins/`:
    ```bash
@@ -56,7 +122,6 @@ To add a new plugin to this marketplace:
        {
          "name": "your-plugin-name",
          "description": "Brief description of what your plugin does",
-         "version": "1.0.0",
          "skills": [
            "./plugins/your-plugin-name"
          ]
@@ -87,14 +152,6 @@ Contributions are welcome! To contribute:
 2. Create a new branch for your plugin or improvement
 3. Add your plugin following the guidelines above
 4. Submit a pull request with a clear description
-
-## Usage
-
-After adding this marketplace, you can install individual plugins:
-
-```bash
-/plugin install [plugin-name]
-```
 
 ## Support
 
