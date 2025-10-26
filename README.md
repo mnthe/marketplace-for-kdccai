@@ -13,7 +13,7 @@ This repository serves as a Claude Code plugin marketplace, hosting single or mu
 Add this marketplace to your Claude Code instance:
 
 ```bash
-/plugin marketplace add https://github.com/mnthe/marketplace-for-kdccai
+/plugin marketplace add mnthe/marketplace-for-kdccai
 ```
 
 Or using the shorthand format:
