@@ -1,4 +1,4 @@
-# marketplace-for-kdccai
+# kdccai
 
 Claude marketplace for KDC Club activity - A collection of Claude Code plugins and skills.
 
@@ -9,7 +9,7 @@ This repository serves as a Claude Code plugin marketplace, hosting single or mu
 ## Repository Structure
 
 ```
-marketplace-for-kdccai/
+kdccai/
 │
 ├── .claude-plugin/
 │   └── marketplace.json     # Marketplace manifest file
@@ -104,7 +104,7 @@ For issues, questions, or suggestions:
 
 ## License
 
-This marketplace and its plugins are provided as-is for KDC Club activities.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Reference
 
